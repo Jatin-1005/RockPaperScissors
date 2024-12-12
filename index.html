@@ -4,35 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Let's Play: Rock, Paper & Scissors</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="content">
-      <div id="images">
-        <img
-          src="/RockPaperScissors/images/img_rock.png"
-          alt="ROCK"
-          class="image"
-        />
-        <img
-          src="/RockPaperScissors/images/img_scissors.png"
-          alt="ROCK"
-          class="image"
-        />
-        <img
-          src="/RockPaperScissors/images/img_paper.png"
-          alt="ROCK"
-          class="image"
-        />
-      </div>
-      <div id="scores">
-        <h1 id="scoreY">0</h1>
-        <h1 id="scoreC">0</h1>
-      </div>
-      <div id="players">
-        <h3 id="plY">You</h3>
-        <h3 id="plC">Comp</h3>
-      </div>
-      <div id="result">Pick your move and let the game start!!</div>
+    <div id="title">
+      <h1 id="titletext">Rock Paper Scissors</h1>
     </div>
+    <div id="images">
+      <img
+        src="/RockPaperScissors/images/img_rock.png"
+        alt="ROCK"
+        class="image"
+      />
+      <img
+        src="/RockPaperScissors/images/img_scissors.png"
+        alt="ROCK"
+        class="image"
+      />
+      <img
+        src="/RockPaperScissors/images/img_paper.png"
+        alt="ROCK"
+        class="image"
+      />
+    </div>
+    <div id="scores">
+      <h1 id="scoreY" class="common">0</h1>
+      <h1 id="scoreC" class="common">0</h1>
+    </div>
+    <div id="players">
+      <h3 id="playerY" class="common">You</h3>
+      <h3 id="playerC" class="common">Comp</h3>
+    </div>
+    <div id="result">
+      <h2 id="resulttext">Pick your move and let the game start!!</h2>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
