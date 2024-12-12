@@ -41,3 +41,15 @@ div{
     height: 20px;
     width: 100px;
 }
+
+.draw{
+    color: rgb(222, 222, 222);
+}
+
+.win{
+    color: green;
+}
+
+.loss{
+    color: red;
+}
